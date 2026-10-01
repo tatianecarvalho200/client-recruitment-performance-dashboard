@@ -1,74 +1,103 @@
-# People Analytics | Dashboard de Recrutamento e Seleção
-
-Projeto de People Analytics desenvolvido do zero para acompanhamento de indicadores de Atração & Seleção.
-
-O trabalho envolveu desde a preparação das bases até a construção e documentação dos dashboards.
+# People Analytics | Dashboard de Gestão de Recrutamento
 
 ## Sobre o projeto
 
-O projeto foi desenvolvido a partir de bases operacionais de recrutamento e seleção.
+Projeto de People Analytics desenvolvido para transformar dados operacionais de Atração & Seleção em indicadores gerenciais para acompanhamento do processo de recrutamento.
 
-Antes da criação dos dashboards, realizei a limpeza, tratamento e padronização dos dados em planilhas, corrigindo inconsistências e organizando os campos necessários para análise.
+O desenvolvimento foi realizado desde a preparação das bases até a criação dos dashboards e indicadores no Looker Studio.
 
-Após a preparação das bases, desenvolvi os dashboards no Looker Studio, criando visualizações, filtros, métricas, campos calculados e fórmulas para acompanhamento do processo seletivo.
+## Preparação e tratamento dos dados
 
-Todo o desenvolvimento também foi documentado separadamente, incluindo regras de negócio, fórmulas utilizadas, estrutura das bases e definições dos indicadores.
+Antes da construção do dashboard, realizei a limpeza, organização e padronização das bases utilizadas no projeto.
 
-## Principais análises
+Também utilizei consultas e fórmulas no Google Sheets para consolidar informações provenientes de diferentes abas e fontes, criando uma estrutura adequada para alimentação do dashboard.
 
-Os dashboards permitem acompanhar:
+Entre as atividades realizadas:
 
-- candidatos abordados;
-- candidatos agendados;
-- entrevistas realizadas;
-- candidatos encaminhados;
-- entrevistas realizadas pelo cliente;
-- contratações;
-- funil de recrutamento;
-- fontes de recrutamento;
-- status da captação;
-- distribuição por cidade;
+- limpeza e tratamento das bases;
+- padronização de campos e informações;
+- correção de inconsistências;
+- consolidação de dados utilizando QUERY no Google Sheets;
+- estruturação de bases auxiliares para o dashboard;
+- validação dos dados antes da criação dos indicadores.
+
+## Desenvolvimento no Looker Studio
+
+Após a preparação das bases, desenvolvi os dashboards no Looker Studio.
+
+Além das visualizações, foram criados campos calculados e fórmulas dentro da própria ferramenta para gerar indicadores e métricas utilizadas nas análises.
+
+Entre os cálculos desenvolvidos estão:
+
+- médias de indicadores;
+- taxas e percentuais;
+- taxa de conversão;
+- SLA médio de entrega;
+- SLA médio de fechamento;
+- aderência ao SLA;
+- cálculos de dias úteis;
+- indicadores de retrabalho;
+- métricas de candidatos por vaga;
+- consolidação das diferentes etapas do processo seletivo.
+
+## O que o dashboard acompanha
+
+O painel permite acompanhar diferentes dimensões do processo de recrutamento, incluindo:
+
+- total de vagas;
+- vagas abertas, entregues, fechadas e canceladas;
+- candidatos por vaga;
+- taxa de conversão;
+- SLA médio de entrega;
+- SLA médio de fechamento;
+- aderência ao SLA;
+- movimentação mensal;
+- motivos de cancelamento;
+- tipo de vaga;
+- visão individual por loja e cargo;
+- datas de abertura e reabertura;
+- data de entrega da shortlist;
+- retrabalho por vaga/loja;
+- regiões atendidas;
+- funil de candidatos;
+- status de captação;
 - motivos de candidatos sem interesse;
-- candidatos fora do perfil;
+- motivos de candidatos fora do perfil;
+- entrevistas realizadas;
+- etapas internas e etapas do cliente;
+- agenda de gestores;
+- candidatos ativos com gestor;
+- candidatos em processo admissional;
 - motivos de declínio;
-- reprovações nas diferentes etapas;
-- idiomas;
-- escolaridade;
-- diversidade;
-- PCD;
-- tipo de deficiência;
-- gênero e identidade de gênero;
-- raça/cor;
-- CNH.
+- status de admissão;
+- desligamentos e seus motivos.
 
-## Etapas desenvolvidas
-
-- Limpeza das bases de dados
-- Tratamento de inconsistências
-- Padronização das informações
-- Estruturação das bases
-- Criação de fórmulas em planilhas
-- Criação de campos calculados no Looker Studio
-- Construção dos indicadores
-- Desenvolvimento das visualizações
-- Criação dos filtros
-- Validação dos dados
-- Documentação das regras de negócio e fórmulas utilizadas
-
-## Ferramentas
+## Ferramentas utilizadas
 
 - Google Sheets
+- QUERY
+- Fórmulas e funções para tratamento de dados
 - Looker Studio
-- Google Drive
+- Campos calculados
+- Google Drive para documentação do projeto
+
+## Documentação
+
+Durante o desenvolvimento, também mantive uma documentação separada com as regras de negócio, fórmulas, cálculos, definições dos indicadores e decisões utilizadas na construção do dashboard.
+
+Essa documentação facilita a manutenção do projeto e permite compreender a origem e a lógica de cada indicador.
 
 ## Privacidade dos dados
 
-Este repositório apresenta uma versão do projeto preparada exclusivamente para portfólio.
+Esta versão foi preparada exclusivamente para utilização em portfólio.
 
-Por questões de confidencialidade, o nome da empresa original foi removido e substituído por **"Empresa"**.
+Por questões de confidencialidade:
 
-Todos os valores e informações apresentados nas demonstrações foram substituídos por **dados fictícios**.
+- o nome da empresa foi substituído por **"Empresa"**;
+- o nome do cliente foi substituído por **"Cliente Exemplo"**;
+- nomes de lojas, gestores e códigos foram anonimizados;
+- todos os volumes, percentuais, datas, SLAs e demais indicadores foram substituídos por **dados fictícios**.
 
-Nenhum dado real de candidatos, clientes ou da empresa está sendo disponibilizado neste repositório.
+Nenhuma informação real da empresa, do cliente ou de candidatos é apresentada neste repositório.
 
-Foram preservados apenas a estrutura do projeto, os indicadores, as regras de negócio e o trabalho de desenvolvimento realizado.
+Foram preservados apenas a estrutura do projeto, os tipos de análises, as regras de negócio e as competências técnicas utilizadas em seu desenvolvimento.
