@@ -1,10 +1,8 @@
-# People Analytics | Dashboard de Gestão de Recrutamento
+Dashboard de Performance de Recrutamento para Cliente
 
 ## Sobre o projeto
 
-Projeto de People Analytics desenvolvido para transformar dados operacionais de Atração & Seleção em indicadores gerenciais para acompanhamento do processo de recrutamento.
-
-O desenvolvimento foi realizado desde a preparação das bases até a criação dos dashboards e indicadores no Looker Studio.
+Dashboard desenvolvido para um cliente, com foco em gestão de vagas, SLAs, retrabalho, funil de candidatos e acompanhamento operacional. Dados consolidados via QUERY no Google Sheets e métricas calculadas no Looker Studio. Dados fictícios para portfólio.
 
 ## Preparação e tratamento dos dados
 
